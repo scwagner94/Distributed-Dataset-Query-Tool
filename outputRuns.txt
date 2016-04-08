@@ -1,0 +1,696 @@
+SEAN WAGNER
+SAMPLE OUTPUT RUNS
+
+[wagner54@grendel ~]$ cd csc330/project3/
+[wagner54@grendel project3]$ ls
+_backup   readFile2      readFile3.cpp  readFile.h
+readFile  readFile2.cpp  readFile.cpp   sequentialNodeList
+[wagner54@grendel project3]$ mpicxx -o readFile readFile.cpp
+[wagner54@grendel project3]$ mpirun -hostfile sequentialNodeList readFile
+LOADING PROGRAM, PLEASE WAIT
+BABY DATA LOADED
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 1
+Datasets are as follows:
+1. KOS
+2. NY Times
+3. Enron
+4. NIPS
+
+Input a dataset number to query on: 3
+Input the number of times a word appears: 400
+
+There are 0.00250872% of enron documents that use a word more than 400 times.
+
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 1
+Datasets are as follows:
+1. KOS
+2. NY Times
+3. Enron
+4. NIPS
+
+Input a dataset number to query on: 4
+Input the number of times a word appears: 100
+
+There are 2.2% of nips documents that use a word more than 100 times.
+
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 1
+Datasets are as follows:
+1. KOS
+2. NY Times
+3. Enron
+4. NIPS
+
+Input a dataset number to query on: 1
+Input the number of times a word appears: 10
+
+There are 13.9359% of kos documents that use a word more than 10 times.
+
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 1
+Datasets are as follows:
+1. KOS
+2. NY Times
+3. Enron
+4. NIPS
+
+Input a dataset number to query on: 2
+Input the number of times a word appears: 50
+
+There are 0.272667% of nytimes documents that use a word more than 50 times.
+
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 2
+Datasets are as follows:
+1. KOS
+2. NY Times
+3. Enron
+4. NIPS
+
+Input a dataset number to query on: 3
+Input the number of times a word appears: 400
+
+
+
+In enron, the following words appear more than 400 times:
+pst
+
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 2
+Datasets are as follows:
+1. KOS
+2. NY Times
+3. Enron
+4. NIPS
+
+Input a dataset number to query on: 4
+Input the number of times a word appears: 100
+
+
+
+In nips, the following words appear more than 100 times:
+classifier
+word
+function
+task
+object
+model
+hint
+weight
+context
+point
+speaker
+item
+cell
+skill
+network
+head
+learning
+motor
+channel
+action
+attractor
+iiii
+
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 2
+Datasets are as follows:
+1. KOS
+2. NY Times
+3. Enron
+4. NIPS
+
+Input a dataset number to query on: 1
+Input the number of times a word appears: 25
+
+
+
+In kos, the following words appear more than 25 times:
+bush
+black
+million
+iraq
+threat
+dean
+democrats
+bunning
+boxer
+percent
+gotv
+
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 3
+Input the word to find: zones
+
+kos   Count: 12
+nytimes   Count: 2741
+enron   Count: 145
+nips   Count: 25
+
+The word appears the most in the nytimes dataset, with 2741 counts.
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 3
+Input the word to find: computer
+
+kos   Count: 53
+nytimes   Count: 68225
+enron   Count: 2378
+nips   Count: 2061
+
+The word appears the most in the nytimes dataset, with 68225 counts.
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 4
+Input the word to find: zones
+
+Datasets are as follows:
+1. KOS
+2. NY Times
+3. Enron
+4. NIPS
+
+Input the first dataset number to query on: 2
+Input the second dataset number to query on: 4
+
+
+The word zones appears more (2741 times) in nytimes than in nips (25 times).
+
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 4
+Input the word to find: zones
+
+Datasets are as follows:
+1. KOS
+2. NY Times
+3. Enron
+4. NIPS
+
+Input the first dataset number to query on: 3
+Input the second dataset number to query on: 4
+
+
+The word zones appears more (145 times) in enron than in nips (25 times).
+
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 4
+Input the word to find: computer
+
+Datasets are as follows:
+1. KOS
+2. NY Times
+3. Enron
+4. NIPS
+
+Input the first dataset number to query on: 1
+Input the second dataset number to query on: 2
+
+
+The word computer appears more (68225 times) in nytimes than in kos (53 times).
+
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 1
+Datasets are as follows:
+1. KOS
+2. NY Times
+3. Enron
+4. NIPS
+
+Input a dataset number to query on: 2
+Input the number of times a word appears: 75
+
+There are 0.0536667% of nytimes documents that use a word more than 75 times.
+
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 1
+Datasets are as follows:
+1. KOS
+2. NY Times
+3. Enron
+4. NIPS
+
+Input a dataset number to query on: 1
+Input the number of times a word appears: 20
+
+There are 0.816326% of kos documents that use a word more than 20 times.
+
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 1
+Datasets are as follows:
+1. KOS
+2. NY Times
+3. Enron
+4. NIPS
+
+Input a dataset number to query on: 4
+Input the number of times a word appears: 3
+
+There are 99.4% of nips documents that use a word more than 3 times.
+
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 2
+Datasets are as follows:
+1. KOS
+2. NY Times
+3. Enron
+4. NIPS
+
+Input a dataset number to query on: 2
+Input the number of times a word appears: 125
+
+
+
+In nytimes, the following words appear more than 125 times:
+test
+zzz_myers_thomas
+expression
+cell
+file
+zzz_enron
+school
+
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 2
+Datasets are as follows:
+1. KOS
+2. NY Times
+3. Enron
+4. NIPS
+
+Input a dataset number to query on: 1
+Input the number of times a word appears: 30
+
+
+
+In kos, the following words appear more than 30 times:
+bush
+threat
+percent
+
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 3
+Input the word to find: zwislocki
+
+kos   Count: 0
+nytimes   Count: 0
+enron   Count: 0
+nips   Count: 15
+
+The word appears the most in the nips dataset, with 15 counts.
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 3
+Input the word to find: hello
+
+kos   Count: 0
+nytimes   Count: 1884
+enron   Count: 755
+nips   Count: 0
+
+The word appears the most in the nytimes dataset, with 1884 counts.
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 3
+Input the word to find: phone
+
+kos   Count: 102
+nytimes   Count: 0
+enron   Count: 5053
+nips   Count: 143
+
+The word appears the most in the enron dataset, with 5053 counts.
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 3
+Input the word to find: test
+
+kos   Count: 62
+nytimes   Count: 48514
+enron   Count: 1583
+nips   Count: 3465
+
+The word appears the most in the nytimes dataset, with 48514 counts.
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 4
+Input the word to find: test
+
+Datasets are as follows:
+1. KOS
+2. NY Times
+3. Enron
+4. NIPS
+
+Input the first dataset number to query on: 3
+Input the second dataset number to query on: 4
+
+
+The word test appears more (3465 times) in nips than in enron (1583 times).
+
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 4
+Input the word to find: help
+
+Datasets are as follows:
+1. KOS
+2. NY Times
+3. Enron
+4. NIPS
+
+Input the first dataset number to query on: 1
+Input the second dataset number to query on: 3
+
+
+The word help appears more (9848 times) in enron than in kos (0 times).
+
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 3
+Input the word to find: help
+
+kos   Count: 0
+nytimes   Count: 119181
+enron   Count: 9848
+nips   Count: 346
+
+The word appears the most in the nytimes dataset, with 119181 counts.
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 3
+Input the word to find: world
+
+kos   Count: 0
+nytimes   Count: 0
+enron   Count: 5216
+nips   Count: 907
+
+The word appears the most in the enron dataset, with 5216 counts.
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 4
+Input the word to find: apple
+
+Datasets are as follows:
+1. KOS
+2. NY Times
+3. Enron
+4. NIPS
+
+Input the first dataset number to query on: 2
+Input the second dataset number to query on: 4
+
+
+The word apple appears more (3090 times) in nytimes than in nips (22 times).
+
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: 4
+Input the word to find: keyboard
+
+Datasets are as follows:
+1. KOS
+2. NY Times
+3. Enron
+4. NIPS
+
+Input the first dataset number to query on: 1
+Input the second dataset number to query on: 2
+
+
+The word keyboard appears more (3326 times) in nytimes than in kos (0 times).
+
+
+
+
+
+Query List:
+1. What percent of documents in X use any one word more than ___ times?
+2. What words in X are used more than ___ times in any document?
+3. In which data set does the word ______ appear most frequently?
+4. Does _____ appear more frequently in X or Y?
+
+
+Please input a query number, or type q to quit: q
+[wagner54@grendel project3]$
